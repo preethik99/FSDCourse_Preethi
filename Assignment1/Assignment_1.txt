@@ -1,0 +1,39 @@
+1. Generate * pattern to construct a pyramid
+    *
+   *** 
+  *****
+ *******
+*********
+2. Upside down pyramid
+*********
+ *******
+  *****
+   ***
+    *
+3. diamond shape
+
+    *
+   *** 
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+3. Find sum of N numbers
+eg  1,2,3,4,5....N
+
+4. how to iterate over an array? explain with an example
+
+6. how iterate over an object data? explain with an example
+
+7. Implement your own search function for strings. dont use builtin function
+
+8. Implement string reversal. dont use builtin function
+
+9. Implement array reversal. dont use builtin function
+
+
+

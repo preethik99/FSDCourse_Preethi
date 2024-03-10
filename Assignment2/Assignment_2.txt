@@ -1,0 +1,5 @@
+1. [Variables] Declare different types of variables and print the type of each variable?
+2. Create a calculator to perform  sum, subraction, multiplication and division of 2 integers provided by user
+3. Create a calculator using function for each operartions -  sum, subraction, multiplication and division of 2 integers provided by user
+4. Declare an array and print all values in an array using loops - for, while — Use functions
+5. Declare an array and sum of all values in an array using loops - for, while  — Use functions
