@@ -1,0 +1,27 @@
+Question:
+
+function solve(n)
+{
+	let i = n
+	while(i>0)
+	{
+		if(i%2 == 0)
+		{
+			for(let j = 1; j <= n*n; j+=2)
+			{
+				statements
+			}
+		}
+		i /=2
+	}
+}
+
+Solution:
+
+The outer loop iterates log base 2 N times because i is halved for each iteration until it reaches 0.
+​
+The nested loop runs N^2 times for the even numbers
+
+O(log base 2 N * N^2) 
+
+=> Time Complexity O(Log N *N^2)

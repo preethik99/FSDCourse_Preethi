@@ -1,0 +1,30 @@
+Question: 
+
+function solve(n)
+{
+
+	let i = 1
+	while(i < n)
+	{
+		let x = i
+		while(x--)
+		{
+			o(1)
+		}
+		i++
+	}
+}
+
+Solution:
+
+Outerloop i has total number of iterations  n times i.e. sum of n numbers.
+(n * (n + 1))/2
+
+The inner loop iterations decrements x until it reaches 0.
+
+Total Iterations = (n*(n+1))/2
+
+Ignoring constant factors, lower order terms and Co-efficients
+
+=>Time complexity of the function is O(n^2)
+

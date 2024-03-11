@@ -1,0 +1,27 @@
+Question: 
+
+1. function solve(int n){
+    for(let i = 0; i < n; i++){
+        for(int j=0; j < i / 2; j++){
+            // O(1) operation
+        }
+    }
+}
+
+
+Solution:
+
+Outerloop i has total number of iterations as sum of n numbers.
+(n * (n + 1))/2
+
+For each iteration of the outer loop, the inner loop iterates approximately i/2 times, where i is the current value of the outer loop index.
+So, the total number of inner loop iterations is the sum of these values for each iteration of the outer loop.
+
+The total number of inner loop iterations is the sum of the number of iterations for each value of i, which ranges from 0 to n-1
+
+(n*(n+1))/2
+
+Ignoring constant factors, lower order terms and Co-efficients
+
+=>Time complexity of the function is O(n^2)
+

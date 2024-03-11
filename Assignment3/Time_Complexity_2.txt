@@ -1,0 +1,28 @@
+Question:
+
+What is the time complexity of following code:
+ 
+let a = 0, let i = N; 
+while (i > 0) { 
+    a += i; 
+    i /= 2; 
+}
+
+
+Solution:
+
+The loop iterates while the variable i is greater than 0.
+In each iteration, a is incremented by the value of i.
+The value of i is halved in each iteration (i /= 2).
+
+
+In the first iteration, i = N.
+In the second iteration, i = N / 2.
+In the third iteration, i = N / 4.
+And so on, until i becomes less than or equal to 0.
+
+The number of iterations needed for i to become less than or equal to 0 can be calculated by finding how many times we can halve N until we reach 0, which is 
+log base 2 N
+
+
+=> Time complexity of the provided code is O(log N) 
