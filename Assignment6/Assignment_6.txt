@@ -1,0 +1,145 @@
+
+
+
+
+Q1. Amazing Subarrays
+
+You are given a string S, and you have to find all the amazing substrings of S.
+
+An amazing Substring is one that starts with a vowel (a, e, i, o, u, A, E, I, O, U).
+
+Input
+
+Only argument given is string S.
+
+Output
+
+Return a single integer X mod 10003, here X is the number of Amazing Substrings in given the string.
+Constraints
+
+1 <= length(S) <= 10^6
+S can have special characters
+Example
+
+Input
+    ABEC
+
+Output
+    6
+
+Explanation
+    Amazing substrings of given string are :
+    1. A
+    2. AB
+    3. ABE
+    4. ABEC
+    5. E
+    6. EC
+    here number of substrings are 6 and 6 % 10003 = 6.
+
+------------------------------------------------------------------------------------
+Q2. Even Subarrays
+
+
+Problem Description
+You are given an integer array A.
+
+Decide whether it is possible to divide the array into one or more subarrays of even length such that the first and last element of all subarrays will be even.
+
+Return "YES" if it is possible; otherwise, return "NO" (without quotes).
+
+
+
+Problem Constraints
+1 <= |A|, A[i] <= 10^6
+
+
+
+Input Format
+The first and the only input argument is an integer array, A.
+
+
+
+Output Format
+Return a string "YES" or "NO" denoting the answer.
+
+
+
+Example Input
+Input 1:
+
+ A = [2, 4, 8, 6]
+Input 2:
+
+ A = [2, 4, 8, 7, 6]
+
+
+Example Output
+Output 1:
+
+ "YES"
+Output 2:
+
+ "NO"
+
+
+Example Explanation
+Explanation 1:
+
+ We can divide A into [2, 4] and [8, 6].
+Explanation 2:
+
+ There is no way to divide the array into even length subarrays.
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Q3. Leaders in an array
+
+
+
+Problem Description
+Given an integer array A containing N distinct integers, you have to find all the leaders in array A. An element is a leader if it is strictly greater than all the elements to its right side.
+
+NOTE: The rightmost element is always a leader.
+
+
+Problem Constraints
+1 <= N <= 10^5
+1 <= A[i] <= 10^8
+
+
+Input Format
+There is a single input argument which a integer array A
+
+
+Output Format
+Return an integer array denoting all the leader elements of the array.
+
+
+Example Input
+Input 1:
+ A = [16, 17, 4, 3, 5, 2]
+Input 2:
+ A = [5, 4]
+
+
+Example Output
+Output 1:
+[17, 2, 5]
+Output 2:
+[5, 4]
+
+
+Example Explanation
+Explanation 1:
+ Element 17 is strictly greater than all the elements on the right side to it.
+ Element 2 is strictly greater than all the elements on the right side to it.
+ Element 5 is strictly greater than all the elements on the right side to it.
+ So we will return these three elements i.e [17, 2, 5], we can also return [2, 5, 17] or [5, 2, 17] or any other ordering.
+Explanation 2:
+ Element 5 is strictly greater than all the elements on the right side to it.
+ Element 4 is strictly greater than all the elements on the right side to it.
+ So we will return these two elements i.e [5, 4], we can also any other ordering.
+
