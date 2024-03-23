@@ -7,6 +7,6 @@ function factorial(n)
     return factorial(n - 1) * n;
 }
 
-let r = factorial(5);
+let r = factorial(2);
 console.log(r);
 

@@ -1,0 +1,46 @@
+// Declaring object
+//Method1
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+//Method2
+const person = {};
+person.firstName = "John";
+person.lastName = "Doe";
+
+//Method3
+const person = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+
+/* Properties are the values associated with a JavaScript object.
+
+A JavaScript object is a collection of unordered properties.
+
+Properties can usually be changed, added, and deleted, but some are read only.*/
+
+//Syntax: 
+objectName.property    //Example: person.age
+
+//or
+
+objectName["property"]   // person["age"]
+
+//or
+
+objectName[expression]   // x = "age"; person[x]
+
+const person = {
+    fname:" John",
+    lname:" Doe",
+    age: 25
+  };
+  
+  for (let x in person) {
+    txt += person[x];
+  }
+
+// to add property
+person.nationality = "English";
+
+//delete property
+delete person.age;
