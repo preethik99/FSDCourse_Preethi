@@ -66,6 +66,5 @@ empList.append("Kruthi",88,7569842632);
 
 console.log("Linked list before removing the head node:", empList.head);
 let appendHeadEmployee = empList.AppendHead("Preethi",34,8987737879);
-console.log("Removed employee:", appendHeadEmployee);
 console.log("Linked list after removing the head node:", empList.head);
 
