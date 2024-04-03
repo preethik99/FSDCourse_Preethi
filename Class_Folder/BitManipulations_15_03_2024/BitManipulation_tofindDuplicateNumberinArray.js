@@ -7,11 +7,12 @@ function findnonDuplicate(arr)
     for(let i=0;i<arr.length;i++)
     {
             output^=arr[i];
+            console.log(output);
     }
   return output;
 }
 
 
-let arr=[1,1,2,2,11,3,3];
+let arr=[1,1,2,2,11,3,3,12];
 let number= findnonDuplicate(arr);
 console.log("The non-duplicate number is:", number);

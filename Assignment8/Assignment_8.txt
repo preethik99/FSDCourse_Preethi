@@ -1,0 +1,36 @@
+1. Determine if a string/number is a palindrome?
+2. Find the number of occurrences of a character in a String?
+3. How to find out if the given two strings are anagrams or not?
+4. How do you calculate the number of vowels and consonants in a String?
+5. How do you get the matching elements(repeated array value) in an integer array? Also, find the frequency of the repeated element?
+6. How do you reverse an array?
+7. Substring search - Given a string, find the pattern provide by user? if yes, print the index of the substring else print -1
+8. How would you swap two numbers without using a third variable?
+
+
+Hi All,
+
+Please create your own repo in github.
+Start pushing the assigments into your repo in below mentioned format.
+   Assignment_folder
+	|
+        Assignment_1  (folder)
+        	|
+         	___  probl.js
+       	        |
+         	___ prob2.js
+
+        Assignment_2  (folder)
+        	|
+         	___  probl.js
+        	|
+         	___  prob2.js
+
+Each solution file should contain the 
+
+        1. problem statement in comments
+        2. input and o/p tested with the solution in comments
+
+   Class_Folder:
+	|
+	Topic_Date.txt   (Highlighting summary in few sentences and important points as discussed in the class) 
