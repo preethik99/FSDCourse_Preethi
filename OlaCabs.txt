@@ -1,0 +1,38 @@
+User:
+
+Create table User{
+   UserID int Primary Key,
+   Name Varchar(100)
+   Phone Number INT(10)
+}
+
+Driver:                                                             1 to M Relationship
+                                      
+
+Create table Driver{
+   DriverID int Primary Key,
+   Name Varchar(100),
+   Phone Number INT(10),
+   Car Number INT
+}
+
+
+Ride:                                                               1 to M Relationship
+
+Create table Ride{
+   RideID int Primary Key,
+   UserID int Foreign Key,
+   DriverID int Foreign Key,
+   Fare int,
+   RideStatus VarChar(100) 
+ }
+
+Payment:                                                             1 to M Relationship
+
+Create table Ride{
+   PaymentID int Primary Key,
+   UserID int Foreign Key,
+   RideID int Foreign Key,
+   Amount int,
+   PaymentStatus VarChar(100) 
+ }
