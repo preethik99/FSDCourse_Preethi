@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Celebrity Page</title>
+        <style>
+            *{ margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+            }
+           
+            .Navbar{
+                background-color: black;
+                color: white;
+                padding: 5px;
+                height: 50px;
+            }
+            .child{
+                padding: 5px;
+                border: solid;
+                margin: 10px;
+
+            }
+            .holder{
+                align-items: center;
+                display: flex;
+            }
+            .space{
+                flex-grow: 1;
+            }
+            .heading{
+                border: double 5px;
+            }
+            h1{
+                text-align: center;
+                color: black;
+                background-color: cornsilk;
+                height: 60px;
+                padding: 10px;
+            }
+            h4{
+                text-align: center;
+                color: black;
+                background-color: cornsilk;
+                height: 50px;
+                padding: 7px;
+            }
+            
+            p{
+                text-align: justify;
+                padding: 10px;
+                border: dotted 3px;
+                color: darkblue;
+                background-color:aqua;
+            }
+           .grid{
+            background-color: chocolate;
+            border: solid 2px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+           }
+           img{
+            height: 330px;
+            width: 280;
+            padding: 5px;
+            margin: 10px;
+            border: double;
+           }
+           .footer{
+            padding: 10px;
+            margin: 20px;
+            justify-self: end;
+            background-color: black;
+            color:white;
+           }
+        </style>
+    </head>
+   <body>
+    <nav class="Navbar">
+        <div class="holder">
+            <div class="child">Home</div>
+            <div class="space"></div>
+            <div class="child">About</div>
+            <div class="child">Services</div>
+            <div class="child">Contact</div>
+        </div>
+    </nav>
+    <div class="heading">
+        <h1>History of Computer Science</h1>
+        <h4>COMPUTER: Common Operating Machine Purposely Used for Technological and Educational Research</h4>
+    </div>
+    <p>
+        Computer science, as a field, has evolved significantly since its inception in the mid-20th century. 
+        Originating from the work of early pioneers like Alan Turing and Grace Hopper, who laid the theoretical groundwork for computation and programming languages, computer science rapidly advanced with the development of the first general-purpose computers during World War II. 
+        The post-war era saw the emergence of programmable electronic computers, such as ENIAC and UNIVAC, which led to innovations in areas like data processing, scientific computing, and business applications. 
+        The invention of the transistor in the late 1940s and subsequent development of integrated circuits in the 1950s and 1960s fueled the growth of computing power and miniaturization, paving the way for the modern digital age. 
+        Throughout the latter half of the 20th century, milestones such as the creation of high-level programming languages, the birth of the internet, and the rise of personal computing revolutionized the field, making computer science an integral part of virtually every aspect of modern life. 
+        Today, computer science continues to evolve rapidly, with breakthroughs in artificial intelligence, quantum computing, and other cutting-edge technologies shaping the future of the discipline.
+    </p>
+    <div class="grid">
+        <a href="exampl.html"><img src="CharlesBabbage.jfif" ></a>
+        <a href=""><img src="BjarneStroustrup.png"></a>
+        <a href=""><img src="Brendan_Eich.jpg"></a> 
+        <a href=""><img src="TimBerners-Lee.jfif"></a>
+    </div>
+    <nav class="holder">
+        <div class="footer">
+            <child>Privacy Policy</child>
+            <child>Terms of Service</child>
+            <child>Cookie Policy</child>
+        </div>
+    </nav>
+    </body> 
+</html>
