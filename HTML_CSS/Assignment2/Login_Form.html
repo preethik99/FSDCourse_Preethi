@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                background-color:lavender;
+            }
+            .formbody{
+                position: absolute;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;              
+                border: solid 4px;
+                height :450px;
+                width: 400px;
+                background-color: white;
+            }
+            h1{
+               text-align: center; 
+               background-color: lavenderblush;
+               height: 80px;
+               padding: 25px;
+            
+            }
+           .form{
+              margin : 30px;
+              margin-left: 80px;
+           }
+        .forgetpass
+        {
+            text-align: center;
+            padding: 20px;
+            margin-left: 45px;
+        }
+        button{
+            background-color:lavenderblush;
+            height: 35px;
+            width: 180px;
+            border-radius: 30px;
+            margin-left: 37px;
+        }
+        input{
+            width: 235px;
+            height: 30px;
+        }
+        .signup
+        {
+            margin-left: 40px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="formbody">
+           <h1>Login</h1> 
+           <hr>
+         <form class="form">
+            <div>
+            <b><label>User Name</label></b><br>
+            <input type="text">
+            </div><br><br>
+            <div>
+                <b><label>Password</label></b><br>
+                <input type="password">
+            </div><br><br>
+            <a href="example.html" class="forgetpass">Forget Password?</a><br><br>
+            <button>Submit</button> <br><br><br>
+            <div class="signup">Not a Member? <a style="color:red;" href="example.html">Sign Up</a></div>
+            </div>
+         </form>
+        </div>
+    </body>
+</html>

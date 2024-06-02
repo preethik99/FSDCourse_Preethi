@@ -1,0 +1,4 @@
+1. Create a webpage for a celebrity of your choice
+2. Create login form structure
+3. Create Registration form structure
+4. Create Feedback form structure.

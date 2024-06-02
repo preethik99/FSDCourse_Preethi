@@ -1,0 +1,29 @@
+{
+  "name": "first-project",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preethik99/FSDCourse_Preethi.git"
+  },
+  "keywords": [
+    "firstproject"
+  ],
+  "author": "preethi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preethik99/FSDCourse_Preethi/issues"
+  },
+  "homepage": "https://github.com/preethik99/FSDCourse_Preethi#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
